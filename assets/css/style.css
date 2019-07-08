@@ -1,0 +1,21 @@
+ body {
+     overflow-x: hidden;
+ }
+ tr {
+     width: 100%;
+     display: inline-table;
+     table-layout: fixed;
+ }
+
+ table {
+     height: 109%;
+     display: -moz-groupbox;
+     margin-bottom: 50px;
+ }
+
+ tbody {
+     overflow-y: scroll;
+     height: 380px;
+     width: 100%;
+     position: absolute;
+ }
